@@ -1,0 +1,90 @@
+% !Mode:: "TeX:UTF-8"
+\documentclass{article}
+\input{en_preamble.tex}
+\input{xecjk_preamble.tex}
+\begin{document}
+\title{}
+\author{}
+\date{}
+\maketitle
+地应力现在通用的多种经验模型包括：单轴应变模型；摩尔-库伦模型；地层各向异性模型。单轴应变计算模型因为未考虑水平向构造应力对实际情况的影响，所以该类模型多只用于构造较平缓地区，且其中 Newberry 模型可专用于低渗、微裂缝地层；黄氏模型在计算时考虑到了构造应力的影响，比较适合平缓地区，但它忽略了地层刚性、地层岩性差异性影响因素；葛氏模型对地层剥蚀应力、构造应力、热应力的影响情况均进行了充分考虑，但忽略地层是一个非线弹性体，故其只适用在构造运动相对剧烈区；ADS 法较好的考虑了构造应力等的影响，有效的表征了水平方向的两个主应力。除此之外还有几种特殊的改造模型，如带构造应力附加项的 Anderson 模型；基于页岩各向异性的地应力解释模型的 Higgins 算法和 Blanton 算法；带有效应力系数、热膨胀系数、构造应力系数以及考虑到地层剥蚀影响的地应力计算模式；由于构造应力系数不易获得，有学者应用成像测井资料判定孔壁的破坏形式，进而约束和反演得到地层应力的大小，得出一种新的计算模型。<br>从目前来看，如何采用合适的地应力模型计算地应力是研究的方向，同时数值模拟和地应力测量相结合，对应力场进行模拟是发展的趋势。
+
+A new seepage model for shale gas reservoir and productivity analysis of fractured well
+
+The shale gas reservoirs are rich in nano-micro scale pores. The flow regime and gas flow state are not
+clearly understood and applied to the hydraulic fractured wells, which is crucial for economic production
+of shale gas. Beskok and Karniadakis equation can describe the relationship between flow velocities and
+pressure gradient, which considers the molecular collisions with the pore walls. But the equation is too
+complex to be applied. In this paper, the Beskok and Karniadakis equation is simplified. Based on this, we
+establish the multi-scale seepage model considering of diffusion, slippage and desorption effect. Consid-
+ering on the influence of sorption and the poromechanical response to the permeability, by use of ellip-
+tical flow model considering on the coupling of the matrix and the fractures, the productivity equation of
+vertical and horizontal fractured well in consideration of diffusion, slip and desorption absorption is
+obtained. Furthermore, we numerically study the influencing factors such as fracture conductivity, frac-
+ture penetration ratio and the status of the gas and obtain critical parameters that control this process.
+Compared with the field production data, this model is verified effectively and practically. It is concluded
+that the desorbed gas contributes 10–15% to the total gas production. The paper provides a better model
+for shale gas production prediction.
+
+Numerical simulation of gas transport mechanisms in tight shale gas reservoirs
+
+ Due to the nanometer scale pore size and extremely low permeability of a shale matrix, 
+traditional Darcy’s law can not exactly describe the combined gas transport mechanisms of viscous 
+flow and Knudsen diffusion. Three transport models modified by the Darcy equation with apparent 
+permeability are used to describe the combined gas transport mechanisms in ultra-tight porous media, 
+the result shows that Knudsen diffusion has a great impact on the gas transport and Darcy’s law cannot 
+be used in a shale matrix with a pore diameter less than 1 μm. A single porosity model and a double 
+porosity model with consideration of the combined gas transport mechanisms are developed to evaluate 
+the infl uence of gas transport mechanisms and fracture parameters respectively on shale gas production. 
+The numerical results show that the gas production predicted by Darcy’s law is lower than that predicted 
+with consideration of Knudsen diffusion and the tighter the shale matrix, the greater difference of the gas 
+production estimates. In addition, the numerical simulation results indicate that shale fractures have a 
+great impact on shale gas production. Shale gas cannot be produced economically without fractures
+
+ The numerical simulation of thermal recovery based on hydraulic fracture heating technology in shale gas reservoir
+ 
+Shale gas reservoirs have received considerable attention for their potential in satisfying future energy demands. Technical advances in horizontal well drilling and hydraulic fracturing have paved the way for the development of shale gas reservoirs. Compared with conventional gas reservoir, adsorbed gas accounts for a large proportion of total gas within shale, so the amount of gas desorbed from the formation has a large impact on the ultimate gas recovery. Recently, efforts toward the thermal recovery of shale oil based on hydraulic fracture heating technology (ExxonMobil's Electrofrac) have made some progress. However, the temperature-dependent adsorption behavior and its major applications of evaluating thermal stimulation as a recovery method have not been thoroughly explored. Additionally, many complicated nonlinear processes coexist in shale formation such as Knudsen diffusion, the pressure dependent phenomenon and non-Darcy flow, presenting a significant challenge for quantifying flow in shale gas reservoir.
+
+To investigate the effect of thermal recovery based on hydraulic fracture heating, a fully coupled numerical model of a fractured horizontal well is developed to capture the real gas flow in shale gas reservoir. Discrete fracture, dual continuum media and single porosity media are employed to describe the hydraulic fractures, the stimulated reservoir volume (SRV) region and the matrix, respectively. The model incorporates non-linear flow mechanisms including adsorption/desorption, Knudsen diffusion, non-Darcy flow and pressure dependent phenomenon, as well as heat diffusion processes within the shale reserve. Then, the effectiveness of formation factors on thermal recovery is analyzed. 
+
+The results show that hydraulic fracture heating can actually enhance shale gas recovery by altering gas desorption behavior, and that this method is more suitable for long-term production. More adsorbed gas can be recovered with increasing simulation temperature. The thermal properties of the shale for mation only have limited impacts on the long-term production. The gas production rate is primarily determined by the simulation temperature, matrix adsorption ability, fracture spacing, area of the SRV region, bottom hole pressure (BHP) and reservoir permeability. A shale gas reservoir with a large Langmuir volume and SRV area, relatively small fracture spacing, and a high BHP has the potential for thermal treatment to enhance gas recovery. The fracture temperature, the area of the SRV region and the fracture spacing are the only three factors that can be controlled during the design and execution of thermal treatment in the field
+
+Beyond dual-porosity modeling for the simulation of complex flow mechanisms in shale reservoirs
+
+The state of the art of modeling fluid flow in shale reservoirs is dominated by dual-porosity models whic divide the reservoirs into matrix blocks that significantly contribute to fluid storage and fracture networks which principally control flow capacity. However, recent extensive microscopic studies reveal that there exist massive micro- and nano-pore systems in shale matrices. Because of this, the actual flow mechanisms in shale reservoirs are considerably more complex than can be simulated by the conventional dual-porosity models and Darcy’s law. Therefore, a model capturing multiple pore scales and flow can provide a better understanding of the complex flow mechanisms occurring in these reservoirs. This paper presents a micro-scale multiple-porosity model for fluid flow in shale reservoirs by capturing the dynamics occurring in three porosity systems: inorganic matter, organic matter (mainly kerogen), and natural fractures. Inorganic and organic portions of shale matrix are treated as sub-blocks with different attributes, such as wettability and pore structures. In kerogen, gas desorption and diffusion are the dominant physics. Since the flow regimes are sensitive to pore size, the effects of nano-pores and micro-pores in kerogen are incorporated into the simulator. The multiple-porosity model is built upon a unique tool for simulating general multipleporosity systems in which several porosity systems may be tied to each other through arbitrary connectivities. This new model allows us to better understand complex flow mechanisms and eventually is extended into the reservoir scale through upscaling techniques. Sensitivity studies on the contributions of the different flow mechanisms and kerogen properties give some insight as to their importance. Results also include a comparison of the conventional dual-porosity treatment and show that significant differences in fluid distributions and dynamics are obtained with the improved multiple-porosity simulation
+
+渗透率各向异性疏松砂岩脱砂压裂产能流固耦合模拟
+
+基于广义达西定律, 建立渗透率各向异性疏松砂岩脱砂压裂人工裂缝 -油藏系统流固耦合模型, 对储层渗透率各向异性对储层流固耦合作用及压裂井生产动态的影响进行分析。 结果表明:储层渗透率各向异性会显著影响储层有效应力及物性参数的变化及分布;近裂缝壁面处, 人工裂缝及渗透率各向异性共同影响储层物性参数变化,远离裂缝处, 渗透率各向异性对储层参数变化起主导作用;当储层渗透率主轴方位角由0°增大至90°时, 压裂井日产油量先增加后减小, 当方位角达到 60°左右时日产油量最大 ;当渗透率主轴方位角为0°时,垂直缝长方向的油藏渗透率对压裂井产能影响较大。
+
+致密油开发水平井段页岩坍塌周期的确定
+
+鄂尔多斯盆地致密油资源丰富，具有很大的开发潜力，但长庆油田A井区在页岩油长水平段钻进时井壁失稳问题突出。现有的水平井防塌技术重点关注钻井液体系优化问题，无法给出页岩的坍塌周期。本井区页岩的主导坍塌机制是钻井液滤液沿天然微裂缝渗入地层，引起黏土矿物水化，导致石强度降低。考虑化学势变化和流体流动与骨架变形的耦合作用以及岩石吸水扩散过程和强度弱化规律，建立致密页岩井壁坍塌周期分析模型。结果表明: 活度较低、膜效率较高的钻井液可以有效抑制地层孔隙压力增长; 封堵性强的钻井液可以降低地层水含量的增长，减缓地层岩石强度的弱化;A井区使用密度为1.3g/cm3 的细分散聚合物钻井液体系和复合盐钻井液体系钻进水平段时井眼坍塌周期分别为4.5和9d，而使用油基钻井液体系时相同密度下浸泡10d井眼扩大率仅为4% ，油基钻井液体系效果最好，坍塌周期大于10d。
+
+页岩气数值模拟技术进展及展望
+
+页岩气是重要的非常规资源，数值模拟技术对于页岩气藏的开发具有重要的意义。综述了页岩气数值模拟技术的进展，论述了页岩气的储集和运移方式，讨论了在页岩孔隙中运移的表征方法; 目前页岩气数值模拟分为双重介质、多重介质及等效介质 3 种模型; 在分析了目前页岩气数值模拟技术研究中存在问题的基础上，对其未来发展方向进行了展望。未来页岩气数值模拟技术的发展方向为: 研究页岩气气水两相运移机制，开展气水两相页岩气数值模拟; 研究页岩中有机质分布规律及有机质孔隙气水运移规律，建立考虑有机质影响的页岩气数值模拟模型; 研究页岩气吸附气运移机制，建立准确描述页岩气解吸机制的页岩气数值模拟模型
+
+页岩气藏三孔双渗模型的渗流机理
+
+为了掌握页岩气储层气体复杂流动的规律，从而高效开发页岩气藏，对页岩气渗流机理进行了研究。借鉴适用于非常规煤层气藏双重孔隙介质模型和考虑溶洞情况的三重孔隙介质模型，基于页岩气储层特征和成藏机理，提出了页岩气藏三孔双渗介质模型；研究了页岩气解析扩散渗流规律，提出考虑储层流体重力和毛细管力影响的渗流微分方程；并利用数值模拟软件对页岩气产能进行了预测。结果表明：基质渗透率和裂缝导流能力是页岩气开采的主控因素，只有对储层进行大规模压裂改造，形成连通性较强的裂缝网络后才能获得理想的页岩气产量和采收率
+
+页岩气藏水平井分段压裂渗流特征数值模拟
+
+页岩气藏具有独特的存储和低渗透特征，其开采技术也有别于常规气藏的开采技术，水平井完井技术和分段压裂技术是成功开发页岩气藏的两大关键技术。水平井完井和分段压裂后形成的复杂裂缝网络体系以及吸附气的解吸作用等因素，都给页岩气井的渗流机理研究带来极大挑战。研究表明，利用数值模拟软件来模拟页岩气井的裂缝网络系统，不仅能模拟页岩气的渗流机理，也能为编制页岩气藏开发方案提供可靠的理论依据。因此以Eclipse2010.1数值模拟软件为研究平台，建立了３种考虑吸附气解吸的页岩气分段压裂水平井数值模型，能够模拟页岩气藏水平井的生产动态，对体积压裂后形成的裂缝参数进行优化模拟。结论认为：只有通过增加水平井的数量和储层改造体积(SRV)、选取异常高压区钻井和压裂出具有充分导流能力的裂缝，才能有效提高页岩气藏的采收率，实现页岩气藏的有效开发
+
+页岩气藏流固耦合渗流模型及有限元求解
+
+页岩气渗流模型是页岩气藏动态分析和数值模拟的基础。将裂缝性页岩气藏视为基质孔隙–裂缝双重介质，同时考虑岩石骨架变形对气体渗流场的影响，建立页岩气藏流固耦合渗流模型。模型假设基质孔隙内作克努森流动，裂缝中作达西渗流，综合考虑页岩气壁面滑脱流动与孔内扩散作用、吸附与脱附、应力敏感性等渗流机制。采用有限元法离散控制方程及全隐式耦合求解方法，编制计算机程序。考虑真实页岩参数取值，利用该模型进行算例分析。结果表明，页岩气藏压力下降速率小于常规裂缝性气藏压力下降速率；裂缝渗透率是影响裂缝渗流压力衰减的主要因素，需考虑页岩裂缝导流能力与基质产气速率的匹配关系；原始地层压力越小，裂缝渗流压力衰减越慢。所建模型可为页岩气藏模拟器开发及动态分析提供理论基础。
+
+页岩气藏渗流机理及压力动态分析
+
+针对页岩气藏的特点，分析国内外对解吸、扩散等数学描述方法，建立三种机理作用下的渗流数学模型:①考虑有机基质表面解吸，解吸气和游离气共同窜流的数学模型; ②考虑有机基质解吸和扩散的数学模型; ③考虑有机基质中的气体解吸、扩散，以及无机基质中气体窜流综合作用的数学模型． 运用点源函数方法，得到模型的基本点源解，对点源解作积分变换得到垂直压裂井、压裂水平井两种开采方式下的地层压力解，绘制出三种机理影响下的压力动态曲线，并从渗流机理上分析曲线特征以及不同曲线存在差异的原因．
+
+页岩气藏运移机制及数值模拟
+
+基于双重连续介质，采用尘气模型( DGM) 建立基岩和裂缝运动方程，基岩中考虑气体在基岩孔隙中黏性流、Knudsen 扩散、分子扩散以及气体在基岩孔隙表面的吸附解吸，吸附采用 Langmuir 等温吸附方程; 裂缝中考虑黏性流、Knudesen 扩散和分子扩散机制，在此基础上建立基岩 － 裂缝双重介质数值模型并采用有限元方法对模型进行求解。根据数值模拟结果对影响页岩气藏产能的因素进行分析。结果表明: 页岩气产出气是游离气和吸附气解吸共同采出的结果，在给定的页岩气藏条件下，游离气影响更大，吸附对页岩气产能有较大影响，忽略吸附会导致预测产能偏低; Knudsen 扩散( 或 Klinkenberg 效应) 对基岩视渗透率影响较大，越靠近生产井，Knudsen 扩散和 Klinkenberg 效应的影响越大，基岩视渗透率随生产时间延长变大; 裂缝渗透率越大，页岩气产量越大，基岩渗透率对页岩气产能影响不大。
+\cite{seepage}\cite{Numerical}\cite{Yan2016}\cite{thermal}\cite{渗透率各向异性疏松砂岩脱砂压裂产能流固耦合模拟}\cite{致密油开发水平井段页岩坍塌周期的确定}\cite{页岩气数值模拟技术进展及展望}\cite{页岩气藏三孔双渗模型的渗流机理}\cite{页岩气藏水平井分段压裂渗流特征数值模拟}\cite{页岩气藏流固耦合渗流模型及有限元求解}\cite{页岩气藏渗流机理及压力动态分析}\cite{页岩气藏运移机制及数值模拟}
+\bibliographystyle{abbrv}
+\bibliography{ref}
+\end{document}
